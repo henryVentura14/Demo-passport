@@ -1,9 +1,9 @@
-# By HVG
+# Passport app login
 
 This small demo does not have a database, to log in with a username and password use the following credentials: 
 
-henry.ventura14@gmail.com 
-1234567
+### Email: henry.ventura14@gmail.com 
+### Password1234567
 
 ## Installation of dependencies
 
