@@ -2,8 +2,8 @@
 
 This small demo does not have a database, to log in with a username and password use the following credentials: 
 
-### Email: henry.ventura14@gmail.com 
-### Password1234567
+Email: henry.ventura14@gmail.com 
+Password: 1234567
 
 ## Installation of dependencies
 
