@@ -49,7 +49,7 @@ class Dash extends Component {
                 </label>
                 <div className="sidebar">
                     <ul>
-                        <li><a ><i className="fas fa-qrcode"></i>Dashboard</a></li>
+                        <li><a href="!#"><i className="fas fa-qrcode"></i>Dashboard</a></li>
                         <li><a href="/"><i className="fas fa-window-close"></i>Sign Out</a></li>
                     </ul>
                 </div>
