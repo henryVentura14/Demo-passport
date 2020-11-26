@@ -10,7 +10,7 @@ export default () => {
                     <input id="tab-2" type="radio" name="tab" className="sign-up" />
                     <label htmlFor="tab-2" className="tab">Sign Up</label>
                     <div className="login-form">
-                        <form action="http://localhost:4500/login" method="post" className="sign-in-htm">
+                        <form action="https://cryptic-tor-38932.herokuapp.com/login" method="post" className="sign-in-htm">
                             <div className="group">
                                 <label htmlFor="userin" className="label">Username</label>
                                 <input id="userin" name="username" type="text" className="input" />
@@ -30,7 +30,7 @@ export default () => {
                             </div>
                             <div className="hr"></div>
                             <div className="foot-lnk">
-                                <a href="http://localhost:4500/auth/google" className="btn">
+                                <a href="https://cryptic-tor-38932.herokuapp.com/auth/google" className="btn">
                                     <div>
                                         <span className="svgIcon t-popup-svg">
                                             <svg
