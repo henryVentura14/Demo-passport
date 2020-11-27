@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
-import './dash.css';
+import './Dash.css';
 import queryString from 'query-string'
 
 class Dash extends Component {
