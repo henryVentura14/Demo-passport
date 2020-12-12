@@ -1,6 +1,6 @@
 import React from 'react';
 import './Login.css';
-export default () => {
+const Login = () => {
     return (
         <div>
             <div className="login-wrap">
@@ -31,7 +31,6 @@ export default () => {
                             <div className="hr"></div>
                             <div className="foot-lnk">
                                 <a href="https://cryptic-tor-38932.herokuapp.com/auth/google" className="btn">
-                                    <div>
                                         <span className="svgIcon t-popup-svg">
                                             <svg
                                                 className="svgIcon-use"
@@ -59,8 +58,7 @@ export default () => {
                                                 </g>
                                             </svg>
                                         </span>
-                                        <span className="button-label">Sign in with Google</span>
-                                    </div>
+                                        <span>Sign in with Google</span>
                                 </a>
                             </div>
                         </form>
@@ -95,3 +93,4 @@ export default () => {
         </div>
     );
 }
+export default Login;
